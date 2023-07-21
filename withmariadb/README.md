@@ -46,7 +46,7 @@ If you want to install load balance on additional servers, add a server to panel
 
 note: newstuff.zip has same files from my xtreamui_things repo, i won't update this zip file anymore. if i change something on those files, you can download them.  
 
-* git clone https://github.com/emre1393/xtreamui-things.git /tmp/xtreamui-things  
+* git clone https://github.com/Dezarthred/xtreamui-things.git /tmp/xtreamui-things  
 * cp -urv /tmp/xtreamui-things/admin-modified/* /home/xtreamcodes/iptv_xtream_codes/admin/  
 * rm -rf /tmp/xtreamui-things  
 

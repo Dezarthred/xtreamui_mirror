@@ -144,7 +144,7 @@ def installadminpanel():
         except: pass
 
         printc("Getting updated admin-modified files")
-        os.system('wget --user-agent="Mozilla/5.0"  -q -O "/tmp/xtreamuithings.zip" "https://github.com/emre1393/xtreamui-things/archive/refs/heads/master.zip"')
+        os.system('wget --user-agent="Mozilla/5.0"  -q -O "/tmp/xtreamuithings.zip" "https://github.com/Dezarthred/xtreamui-things/archive/refs/heads/master.zip"')
         try: is_ok = zipfile.ZipFile("/tmp/xtreamuithings.zip")
         except:
             printc("Invalid link or zip file is corrupted for /tmp/xtreamuithings.zip!", col.FAIL)
